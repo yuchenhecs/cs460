@@ -1,0 +1,14 @@
+$TTL 86400
+$ORIGIN illinois.edu.
+@ 1D IN SOA illinois.edu. www.illinois.edu. (
+	2012021211
+	86400
+	7200
+	604800
+	86400
+	)
+ 	1D	IN	NS	ns.illinois.edu.
+ns 	3600	IN 	A	192.168.100.135
+* 	3600	IN	A	52.41.22.123
+@ 	3600	IN	A	52.41.22.123
+
